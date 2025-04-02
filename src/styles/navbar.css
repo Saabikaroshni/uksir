@@ -1,0 +1,36 @@
+.navbar {
+  display: flex;
+  flex-wrap: wrap; /* Ensures elements wrap on smaller screens */
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: #333;
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  flex-wrap: wrap; /* Wraps links if they overflow */
+  gap: 15px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 8px 12px;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  background: white;
+  color: #333;
+  border-radius: 5px;
+}

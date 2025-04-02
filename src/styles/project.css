@@ -1,0 +1,11 @@
+.projects {
+    padding: 40px;
+    background: white;
+  }
+  
+  .project-card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-top: 10px;
+  }
+  
