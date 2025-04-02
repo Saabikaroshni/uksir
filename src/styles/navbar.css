@@ -3,9 +3,18 @@
   flex-wrap: wrap; /* Ensures elements wrap on smaller screens */
   justify-content: space-between;
   align-items: center;
+  border-radius: 10px;
   padding: 15px 30px;
   background: #333;
   color: white;
+  box-shadow: 0 4px 8px white;
+  
+}
+.logo {
+  color:white;
+  font-size: 2.1rem;
+  justify-content: center;
+  margin-top: 10px;
 }
 
 .nav-links {
