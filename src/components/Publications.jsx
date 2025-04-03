@@ -2,7 +2,10 @@ import React from 'react'
 
 const Publications = () => {
   return (
-    <div>Publications</div>
+    <section id="publications">
+    <h2>publications</h2>
+    <p>Details</p>
+  </section>
   )
 }
 

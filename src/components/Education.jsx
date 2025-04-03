@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
 
 const Education = () => {
   return (
-    <div>Education</div>
-  )
-}
+    <section id="education">
+      <h2>Education</h2>
+      <p>Details about education...</p>
+    </section>
+  );
+};
 
-export default Education
+export default Education;
+
+   

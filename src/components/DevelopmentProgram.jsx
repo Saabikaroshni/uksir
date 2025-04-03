@@ -2,7 +2,10 @@ import React from 'react'
 
 const DevelopmentProgram = () => {
   return (
-    <div>DevelopmentProgram</div>
+    <section id="development-program">
+      <h2>development-program</h2>
+      <p>Details</p>
+    </section>
   )
 }
 

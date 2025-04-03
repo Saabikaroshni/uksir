@@ -1,6 +1,5 @@
 import React from "react";
-import { Routes, Route } from "react-router-dom";
-import Navbar from "../src/components/Navbar";
+import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Education from "./components/Education";
 import WorkExperience from "./components/WorkExperience";
@@ -12,27 +11,23 @@ import Webinar from "./components/Webinar";
 import DevelopmentProgram from "./components/DevelopmentProgram";
 import Subjects from "./components/Subjects";
 import Contact from "./components/Contact";
-
-
-
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <>
       <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/education" element={<Education />} />
-        <Route path="/work-experience" element={<WorkExperience />} />
-        <Route path="/publications" element={<Publications />} />
-        <Route path="/paper-presentation" element={<PaperPresentation />} />
-        <Route path="/achievements" element={<Achievements />} />
-        <Route path="/workshops" element={<Workshops />} />
-        <Route path="/webinar" element={<Webinar />} />
-        <Route path="/development-program" element={<DevelopmentProgram />} />
-        <Route path="/subjects" element={<Subjects />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
+      <div id="home"><Home /></div>
+      <div id="education"><Education /></div>
+      <div id="work-experience"><WorkExperience /></div>
+      <div id="publications"><Publications /></div>
+      <div id="paper-presentation"><PaperPresentation /></div>
+      <div id="achievements"><Achievements /></div>
+      <div id="workshops"><Workshops /></div>
+      <div id="webinar"><Webinar /></div>
+      <div id="development-program"><DevelopmentProgram /></div>
+      <div id="subjects"><Subjects /></div>
+      <div id="contact"><Contact /></div>
     </>
   );
 }

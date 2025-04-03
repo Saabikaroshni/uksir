@@ -2,7 +2,10 @@ import React from 'react'
 
 const Subjects = () => {
   return (
-    <div>Subjects</div>
+    <section id="subjects">
+    <h2>subjects</h2>
+    <p>Details</p>
+  </section>
   )
 }
 

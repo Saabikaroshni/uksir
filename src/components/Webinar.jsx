@@ -2,7 +2,10 @@ import React from 'react'
 
 const Webinar = () => {
   return (
-    <div>Webinar</div>
+    <section id="webinar">
+    <h2>webinar</h2>
+    <p>Details</p>
+  </section>
   )
 }
 

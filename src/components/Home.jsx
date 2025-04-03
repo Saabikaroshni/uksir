@@ -18,7 +18,8 @@ const Home = () => {
   }, []);
 
   return (
-    <div className={`home-container ${fadeIn ? 'fade-in' : ''}`}>
+    <section id="home">
+      <div className={`home-container ${fadeIn ? 'fade-in' : ''}`}>
       <h1>Welcome to My Portfolio</h1>
       <p>
         I am basically an Electronics and Communication Engineer with M.B.A (Marketing) and M.E. (Medical Electronics) and completed Ph.D. in College of Engineering, Anna University.
@@ -40,6 +41,7 @@ const Home = () => {
         <li>Control Systems Society</li>
       </ul>
     </div>
+    </section>
   );
 };
 
