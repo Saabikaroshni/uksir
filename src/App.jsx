@@ -17,17 +17,20 @@ function App() {
   return (
     <>
       <Navbar />
-      <div id="home"><Home /></div>
-      <div id="education"><Education /></div>
-      <div id="work-experience"><WorkExperience /></div>
-      <div id="publications"><Publications /></div>
-      <div id="paper-presentation"><PaperPresentation /></div>
-      <div id="achievements"><Achievements /></div>
-      <div id="workshops"><Workshops /></div>
-      <div id="webinar"><Webinar /></div>
-      <div id="development-program"><DevelopmentProgram /></div>
-      <div id="subjects"><Subjects /></div>
-      <div id="contact"><Contact /></div>
+      <main>
+        <section id="home"><Home /></section>
+        <section id="education"><Education /></section>
+        <section id="work-experience"><WorkExperience /></section>
+        <section id="publications"><Publications /></section>
+        <section id="paper-presentation"><PaperPresentation /></section>
+        <section id="achievements"><Achievements /></section>
+        <section id="workshops"><Workshops /></section>
+        <section id="webinar"><Webinar /></section>
+        <section id="development-program"><DevelopmentProgram /></section>
+        <section id="subjects"><Subjects /></section>
+        <section id="contact"><Contact /></section>
+      </main>
+      <ScrollToTop />
     </>
   );
 }

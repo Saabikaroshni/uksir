@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-scroll";
+import { Link } from "react-scroll"; // Import Link from react-scroll
 import "../styles/navbar.css";
 
 const Navbar = () => {

@@ -1,38 +1,34 @@
 import React, { useState, useEffect } from "react";
-import "../styles/scrollToTop.css";
 import { FaArrowUp } from "react-icons/fa";
+import "../styles/scrollToTop.css";
 
 const ScrollToTop = () => {
   const [isVisible, setIsVisible] = useState(false);
 
-  useEffect(() => {
-    const toggleVisibility = () => {
-      if (window.scrollY > 300) {
-        setIsVisible(true);
-      } else {
-        setIsVisible(false);
-      }
-    };
+  const toggleVisibility = () => {
+    if (window.scrollY > 300) {
+      setIsVisible(true);
+    } else {
+      setIsVisible(false);
+    }
+  };
 
+  useEffect(() => {
     window.addEventListener("scroll", toggleVisibility);
     return () => window.removeEventListener("scroll", toggleVisibility);
   }, []);
 
   const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   return (
-    <div>
-      {isVisible && (
-        <button className="scroll-to-top" onClick={scrollToTop}>
-          <FaArrowUp />
-        </button>
-      )}
-    </div>
+    <button
+      className={`scroll-to-top ${isVisible ? "show" : ""}`}
+      onClick={scrollToTop}
+    >
+      <FaArrowUp />
+    </button>
   );
 };
 
