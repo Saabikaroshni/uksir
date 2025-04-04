@@ -3,6 +3,7 @@
   text-align: center;
   background: linear-gradient(to left, #dde8f0, #f7faff);
   color: rgb(33, 33, 126);
+  
 }
 
 .edu-title {
@@ -16,7 +17,7 @@
 .edu-grid {
   display: flex;
   flex-wrap: wrap;
-  
+  justify-content: center;
   gap: 20px;
   padding: 30px;
   background: linear-gradient(to left, #dde8f0, #f7faff);

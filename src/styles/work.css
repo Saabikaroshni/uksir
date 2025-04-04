@@ -1,0 +1,165 @@
+/* Work Experience Section */
+#work-experience {
+    padding: 50px 10%;
+    background: linear-gradient(to left, #dde8f0, #f7faff);
+  }
+  
+  /* Section Title */
+  .section-title {
+    text-align: center;
+    font-size: 2.9rem;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 40px;
+  }
+  
+  /* Work Container */
+  .work-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  /* Work Card */
+  .work-card {
+    flex: 1 1 30%;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .work-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Card Header */
+  .card-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+    
+  }
+  
+  .work-icon {
+    font-size: 2.9rem;
+    color: rgb(33, 33, 126);
+  }
+  
+  /* Table Styling */
+  .table-container {
+    overflow-x: auto;
+  }
+  
+  .experience-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+  }
+  
+  .experience-table th,
+  .experience-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .experience-table th {
+    background-color: rgb(33, 33, 126);
+    color: white;
+  }
+  
+  .experience-table td {
+    font-size: 1.3rem;
+    color: black;
+    font-weight: 550;
+  }
+  .grid {
+    margin-top: 40px;
+    display: flex;
+    
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    /* padding: 50px; */
+    background: linear-gradient(to left, #dde8f0, #f7faff);
+    border-radius: 20px;
+    /* max-width: 500px; */
+  }
+  .gridfont{
+    font-size: 1.5rem;
+  }
+  .gridh{
+    font-size: 1.8rem;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 4px solid #2a5298;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+  }
+  
+  /* Responsibilities Section */
+  .responsibilities {
+    margin-top: 40px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .responsibilities h3 {
+    
+    color: #222;
+    font-size: 1.8rem;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 4px solid #2a5298;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .responsibilities ul {
+    padding-left: 20px;
+    list-style: none;
+  }
+  
+  .responsibilities li {
+    font-size: 1.5rem;
+    padding: 8px 0;
+    position: relative;
+    color: #333;
+  }
+  
+  /* Add Bullet Icons */
+  .responsibilities li::before {
+    content: "•";
+    color: rgb(33, 33, 126);
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: inline-block;
+    width: 20px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 1024px) {
+    .work-card {
+      flex: 1 1 45%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .work-container {
+      flex-direction: column;
+      align-items: center;
+    }
+    .work-card {
+      width: 100%;
+    }
+  }
+  

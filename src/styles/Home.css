@@ -27,10 +27,11 @@
 
 /* Blinking Cursor */
 .cursor {
+  padding-bottom: 30px;
   display: inline-block;
   width: 5px;
-  height: 30px;
-  background-color: rgb(33, 33, 126);
+  height: 40px;
+  /* background-color: rgb(33, 33, 126); */
   animation: blink 0.8s infinite;
 }
 
