@@ -10,7 +10,7 @@
   font-size: 2.5rem; /* Adjusted for better readability */
   margin-bottom: 30px;
   text-transform: uppercase;
-  color: rgb(33, 33, 126);
+  color: black;
 }
 
 /* Education Grid Layout */
@@ -27,7 +27,7 @@
 /* Education Card */
 .edu-card {
   color: rgb(33, 33, 126);
-  background-color: white;
+  background: linear-gradient(to left, #dde8f0, #f7faff);
   border-radius: 10px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
   padding: 20px;
