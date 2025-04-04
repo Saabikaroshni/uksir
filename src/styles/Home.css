@@ -12,7 +12,7 @@
 
 /* Make the text responsive */
 .typing-text {
-  font-size: 4vw; /* Adjusts based on viewport width */
+  font-size: 5vw; /* Adjusts based on viewport width */
   font-weight: bolder;
   color: rgb(33, 33, 126);
   font-family: "Poppins", sans-serif;
@@ -49,14 +49,14 @@
 h1 {
   color: black;
   text-align: center;
-  font-size: 28px;
+  font-size: 4vw;
   margin-bottom: 20px;
 }
 
 p {
   font-size: 3vw;
   /* color: rgb(33, 33, 126); */
-  line-height: 1.6;
+  line-height: 1.2;
   text-align: justify;
   font-weight: 540;
 
