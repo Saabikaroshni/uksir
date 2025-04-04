@@ -12,7 +12,7 @@
 
 /* Make the text responsive */
 .typing-text {
-  font-size: 3vw; /* Adjusts based on viewport width */
+  font-size: 4vw; /* Adjusts based on viewport width */
   font-weight: bolder;
   color: rgb(33, 33, 126);
   font-family: "Poppins", sans-serif;
@@ -54,8 +54,8 @@ h1 {
 }
 
 p {
-  font-size: 30px;
-  color: rgb(33, 33, 126);
+  font-size: 3vw;
+  /* color: rgb(33, 33, 126); */
   line-height: 1.6;
   text-align: justify;
   font-weight: 540;
@@ -67,9 +67,9 @@ ul {
 }
 
 li {
-  font-size: 30px;
+  font-size: 3vw;
   margin-bottom: 5px;
-  color: rgb(33, 33, 126);
+  /* color: rgb(33, 33, 126); */
   font-weight: 540;
 }
 @keyframes blink {

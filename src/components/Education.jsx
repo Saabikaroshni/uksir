@@ -16,12 +16,14 @@ const Education = () => {
   return (
     <section id="education">
       <h2 className="edu-title">Education</h2>
-      <div className="timeline">
+      <div className="edu-grid">
         {educationData.map((edu, index) => (
-          <div key={index} className="timeline-item">
-            <div className="year">{edu.year}</div>
-            <div className="details">
-              <h3>{edu.degree}</h3>
+          <div key={index} className="edu-card">
+            <div className="edu-header">
+              <span className="edu-year">{edu.year}</span>
+              <h3 className="edu-degree">{edu.degree}</h3>
+            </div>
+            <div className="edu-body">
               <p><strong>University:</strong> {edu.university}</p>
               <p><strong>College:</strong> {edu.college}</p>
               <p><strong>Grade:</strong> {edu.grade}</p>
