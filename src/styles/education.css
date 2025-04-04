@@ -6,7 +6,7 @@
 }
 
 .edu-title {
-  font-size: 4vw;
+  font-size: 2.5rem; /* Adjusted for better readability */
   margin-bottom: 30px;
   text-transform: uppercase;
   color: rgb(33, 33, 126);
@@ -16,24 +16,21 @@
 .edu-grid {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  
   gap: 20px;
-  padding: 0 20px;
-  background: linear-gradient(to left, #dde8f0, #f7faff);
   padding: 30px;
+  background: linear-gradient(to left, #dde8f0, #f7faff);
   border-radius: 20px;
 }
 
 /* Education Card */
 .edu-card {
-
   color: rgb(33, 33, 126);
-  
   background-color: white;
   border-radius: 10px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
   padding: 20px;
-  width: calc(33.33% - 20px);  /* Adjust for 3-column layout */
+  width: calc(33.33% - 20px); /* Adjust for 3-column layout */
   min-width: 280px; /* Ensures it adapts on smaller screens */
   max-width: 350px;
   transition: transform 0.3s ease-in-out;
@@ -62,11 +59,11 @@
   padding: 5px 10px;
   border-radius: 5px;
   font-weight: bold;
-  font-size: 2.5vw;
+  font-size: 1.4rem; /* Adjusted from 2.5vw */
 }
 
 .edu-degree {
-  font-size: 3vw;
+  font-size: 1.8rem; /* Adjusted from 3vw */
   font-weight: bold;
   margin: 0;
 }
@@ -74,7 +71,7 @@
 /* Card Body */
 .edu-body p {
   margin: 5px 0;
-  font-size: 3vw;
+  font-size: 1.6rem; /* Adjusted from 3vw */
   color: #333;
 }
 

@@ -1,70 +1,57 @@
+/* Navbar Styles */
 .navbar {
   display: flex;
   flex-wrap: wrap; /* Ensures elements wrap on smaller screens */
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  
-  padding: 15px 30px;
+  padding: 12px 20px;
   background: linear-gradient(to right, #1e3c72, #2a5298);
-  /* background: linear-gradient(to right, #ff7e5f, #feb47b); */
-  /* background: linear-gradient(to right, #141e30, #243b55); */
-  /* background: linear-gradient(to right, #8e2de2, #4a00e0); */
-  /* background: linear-gradient(to right, #00c6ff, #0072ff); */
-  /* background: linear-gradient(to right, #ff00cc, #333399); */
-  /* background: linear-gradient(to right, #11998e, #38ef7d); */
-  /* background: linear-gradient(to right, #ff512f, #dd2476); */
-  /* background: linear-gradient(to right, #ff9a9e, #fad0c4); */
-  /* background: linear-gradient(to right, #d4af37, #b8860b); */
-
-  
-
-
-
-
-
-
-
-
-  font-size: 3vw;
+  font-size: 1rem;
   color: white;
-  box-shadow: 0 4px 8px white;
-  
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
 }
-/* .logo {
-  color:black;
-  border-radius: 10px;
-  padding: 10px 20px;
-  background: linear-gradient(to left, #dde8f0, #f7faff);
-  font-size: 2.1rem;
-  justify-content: center;
-  margin-top: 10px;
-} */
 
+/* Navigation Links */
 .nav-links {
   display: flex;
-  flex-wrap: wrap; /* Wraps links if they overflow */
-  gap: 15px;
+  flex-wrap: wrap; /* Ensures links wrap on small screens */
+  gap: 20px;
   list-style: none;
   padding: 0;
   margin: 0;
+  padding: 40px;
 }
 
 .nav-links li {
-  display: inline;
+  display: inline-block;
 }
 
+/* Navigation Link Styling */
 .nav-links a {
   text-decoration: none;
   color: white;
   font-weight: bold;
-  padding: 8px 12px;
-  transition: 0.3s;
-  font-size: 3vw;
-}
-
-.nav-links a:hover {
-  background: white;
-  color: #333;
+  padding: 10px 15px;
+  transition: all 0.3s ease;
+  font-size: 2rem; /* Reduced size for better readability */
   border-radius: 5px;
 }
 
+/* Hover Effect */
+.nav-links a:hover {
+  background: white;
+  color: #333;
+}
+
+/* Responsive Font Sizes */
+@media (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+  .nav-links a {
+    font-size: 1.3rem;
+    padding: 8px 12px;
+  }
+}

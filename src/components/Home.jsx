@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "../styles/Home.css";
 
 const Home = () => {
-  const firstLine = "Welcome to the portfolio of";
+  const firstLine = "Welcome to the Portfolio of";
   const secondLine = "UTHAYAKUMAR G.S";
 
   const [displayedText1, setDisplayedText1] = useState("");
@@ -11,27 +11,27 @@ const Home = () => {
   const [index2, setIndex2] = useState(0);
   const [typingFirstDone, setTypingFirstDone] = useState(false);
 
-  // Type the first line
+  // Typing Effect for the first line
   useEffect(() => {
     if (index1 < firstLine.length) {
       const timeout = setTimeout(() => {
         setDisplayedText1((prev) => prev + firstLine[index1]);
         setIndex1(index1 + 1);
-      }, 100); // Adjust speed
+      }, 75);
 
       return () => clearTimeout(timeout);
     } else {
-      setTypingFirstDone(true); // Once first line is done, start second line
+      setTypingFirstDone(true);
     }
   }, [index1, firstLine]);
 
-  // Type the second line after first is completed
+  // Typing Effect for the second line after first is complete
   useEffect(() => {
     if (typingFirstDone && index2 < secondLine.length) {
       const timeout = setTimeout(() => {
         setDisplayedText2((prev) => prev + secondLine[index2]);
         setIndex2(index2 + 1);
-      }, 150); // Adjust speed
+      }, 100);
 
       return () => clearTimeout(timeout);
     }
@@ -39,51 +39,37 @@ const Home = () => {
 
   return (
     <section id="home" className="home-section">
-      {/* Typing Effect for Name */}
+      {/* Animated Heading */}
       <div className="name-container">
-        <h1
-          className={`typing-text ${
-            index1 === firstLine.length ? "typing-complete" : ""
-          }`}
-        >
+        <h1 className="typing-text">
           {displayedText1}
-          <span className="cursor">|</span>
+          <span className={`cursor ${index1 === firstLine.length ? "hidden" : ""}`}>|</span>
         </h1>
 
         {typingFirstDone && (
-          <h1
-            className={`typing-text ${
-              index2 === secondLine.length ? "typing-complete" : ""
-            }`}
-          >
+          <h1 className="typing-text">
             {displayedText2}
-            <span className="cursor">|</span>
+            <span className={`cursor ${index2 === secondLine.length ? "hidden" : ""}`}>|</span>
           </h1>
         )}
       </div>
 
-      {/* Introduction Content */}
-      <div className="home-container">
-        <div className="home-container">
+      {/* Introduction Section */}
+      <div className="home-content">
         <p>
-          I am basically an Electronics and Communication Engineer with M.B.A
-          (Marketing) and M.E. (Medical Electronics) and completed Ph.D. in
-          College of Engineering, Anna University.
+          I am an <strong>Electronics and Communication Engineer</strong> with an <strong>M.B.A. (Marketing)</strong> and <strong>M.E. (Medical Electronics)</strong>. 
+          I earned my Ph.D. from the College of Engineering, <strong>Anna University</strong>.
         </p>
         <p>
-          I have 31 years of experience in various fields, including over 12
-          years in IT design and development, and 20 years in teaching. I have
-          published more than 30 international journal papers and presented
-          papers at international and national conferences in different
-          engineering colleges.
+          With <strong>31 years of experience</strong>, I have dedicated <strong>12 years</strong> to IT design and development 
+          and <strong>20 years</strong> to teaching. My contributions include publishing <strong>30+ international journal papers</strong> 
+          and presenting research at both national and international conferences.
         </p>
         <p>
-          I have initiated various IEEE technical student branch chapters,
-          including:
+          I have played a key role in initiating various <strong>IEEE technical student branch chapters</strong>, including:
         </p>
-        </div>
-        <div>
-        <ul>
+
+        <ul className="ieee-list">
           <li>Communication Society</li>
           <li>Antenna and Propagation Society</li>
           <li>Industrial Electronics Society</li>
@@ -93,8 +79,6 @@ const Home = () => {
           <li>Computational Intelligence Society</li>
           <li>Control Systems Society</li>
         </ul>
-        </div>
-       
       </div>
     </section>
   );
