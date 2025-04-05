@@ -55,6 +55,7 @@ const Home = () => {
       </div>
 
       {/* Introduction Section */}
+      <div>
       <div className="home-content">
         <p>
           I am an <strong>Electronics and Communication Engineer</strong> with an <strong>M.B.A. (Marketing)</strong> and <strong>M.E. (Medical Electronics)</strong>. 
@@ -79,6 +80,7 @@ const Home = () => {
           <li>Computational Intelligence Society</li>
           <li>Control Systems Society</li>
         </ul>
+      </div>
       </div>
     </section>
   );

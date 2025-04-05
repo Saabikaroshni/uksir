@@ -15,7 +15,7 @@ const WorkExperience = () => {
             <FaBriefcase className="work-icon" />
             <h3 className="emp">Employment Details</h3>
           </div>
-          <div className="table-container">
+          <div className="grid2">
             <table className="experience-table">
               <thead>
                 <tr className="emp1">
@@ -135,8 +135,8 @@ const WorkExperience = () => {
 
             <ul>
               <li className="gridfont">Completed <strong>50+ projects</strong> successfully and implemented them at client locations.</li>
-              <li className="gridfont">Meeting client and finding the exact requirement and providing
-                solutions.</li>
+              {/* <li className="gridfont">Meeting client and finding the exact requirement and providing
+                solutions.</li> */}
               <li className="gridfont">Managed teams and recruited <strong>450 candidates</strong> for domestic and overseas roles.</li>
             </ul>
           </div>
@@ -159,63 +159,53 @@ const WorkExperience = () => {
 
       {/* Key Responsibilities */}
       <div className="responsibilities">
-        <div className="grid">
+        {/* <div className="grid">
         <h3>Key Responsibilities</h3>
+       
         <ul>
-          <li>Guiding trainees in project development.</li>
-          <li>Selecting subordinates to domestic and Overseas.</li>
-          <li>Identify the right teams and motivating them in the project.</li>
-          <li>Correcting coding errors & adding new features.</li>
-          <li>Optimizing software for speed and efficiency.</li>
-          <li>Reconfiguring the software to solve a similar related package.</li>
-          <li>Comparisons of current 'as-is' operations with potential 'to-be'
-          charted with confidence.</li>
-          <li>Making pricing decisions</li>
-          <li>Determine the 'mix of employees skills' to meet the corporate
-          objectives.</li>
+        <li>Guided trainees in project development.</li>
+<li>Selected team members for domestic and overseas assignments.</li>
+<li>Identified and motivated the right teams for projects.</li>
+<li>Fixed coding errors and added new features.</li>
+<li>Optimized software for speed and performance.</li>
+<li>Reconfigured software to support related packages.</li>
+<li>Compared current operations with proposed improvements.</li>
+<li>Made pricing decisions.</li>
+<li>Defined employee skill mix to meet company goals.</li>
+
+
         </ul>
-        </div>
-        <div className="grid">
+        </div> */}
+    
+          
+       
+      
+        <div className="grid2">
           
         <h3>Roles and Responsibilities</h3>
         <ul>
-        <li> Responsible for developing intranet and custom applications for the
-                                        'Supervision and
-                                        regulation' department in order to assist in the supervision and control of
-                                        various banks</li>
-                                    <li>Designed and developed intranet applications in Java, using the server stream
-                                        and web
-                                        logic application server and a MS SQL database.</li>
-                                    <li>Maintained the department intranet on a daily basis using(HTML, JavaScript,
-                                        DHTML,
-                                        Photoshop and Acrobat).</li>
-                                    <li>Provided one-on-one as well as group tutoring to help students of introductory
-                                        and
-                                        intermediate level in CS and Physics classes in C++, Algorithms, and Digital
-                                        Systems.
-                                        Mentored students on Java++ pointer manipulation, sorting, searching and graph
-                                        algorithms and NP Completeness.</li>
-                                    <li>Responsible for pre-sales technical support for a J2EE / Services Oriented
-                                        Architecture
-                                        product</li>
-                                    <li>Involved in preparing presentations, demos, proof of concepts, technical sales
-                                        material,
-                                        and sales tools such as ROI, and Architecture Maturity</li>
-                                    <li>Managed NT 4 servers operating as file/print/application servers. Initiated
-                                        UNIX-NT
-                                        integration. Responsibilities included writing PERL scripts for
-                                        accounts/Directory
-                                        synchronization and performing daily administrative tasks such as directory
-                                        replication,
-                                        backups, and domain management. Installed FTP and HTTP servers and a UNIX shell.
-                                    </li>
-                                    <li>Worked on proof of concepts on using the Wakesoft Architecture Platform to
-                                        deliver
-                                        service-oriented applications on BEA web logic and IBM WebSphere.</li>
-                                    <li>Work with prospective customers giving presentations, helping in evaluations,
-                                        and
-                                        technical training.</li>
-                                </ul>
+          <li>Developed intranet and custom apps for the 'Supervision and Regulation' department to aid bank supervision.</li>
+          <li>Built intranet apps using Java, Server Stream, WebLogic, and MS SQL database.</li>
+          <li>Maintained intranet daily using HTML, JavaScript, DHTML, Photoshop, and Acrobat.</li>
+          <li>Tutored students in C++, Algorithms, Digital Systems, and Java pointer/graph algorithms.</li>
+          <li>Provided pre-sales technical support for a J2EE/Service-Oriented Architecture product.</li>
+          <li>Created presentations, demos, POCs, technical sales materials, ROI tools, and architecture maturity models.</li>
+          <li>Managed NT 4 servers, integrated UNIX-NT, wrote PERL scripts, and handled daily admin tasks.</li>
+          <li>Built POCs using Wakesoft Platform on BEA WebLogic and IBM WebSphere for SOA apps.</li>
+          <li>Delivered presentations, technical evaluations, and training for prospective clients.</li>
+
+          <li>Guided trainees in project development.</li>
+<li>Selected team members for domestic and overseas assignments.</li>
+<li>Identified and motivated the right teams for projects.</li>
+<li>Fixed coding errors and added new features.</li>
+<li>Optimized software for speed and performance.</li>
+<li>Reconfigured software to support related packages.</li>
+<li>Compared current operations with proposed improvements.</li>
+<li>Made pricing decisions.</li>
+<li>Defined employee skill mix to meet company goals.</li>
+
+        </ul>
+       
         </div>
                             
       </div>

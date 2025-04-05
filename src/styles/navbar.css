@@ -8,6 +8,7 @@
   background: linear-gradient(to right, #1e3c72, #2a5298);
   font-size: 1rem;
   color: white;
+
   box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
 }
 
@@ -33,7 +34,7 @@
   font-weight: bold;
   padding: 10px 15px;
   transition: all 0.3s ease;
-  font-size: 2rem; /* Reduced size for better readability */
+  font-size: 1.3rem; /* Reduced size for better readability */
   border-radius: 5px;
 }
 

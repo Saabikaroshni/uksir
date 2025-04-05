@@ -101,6 +101,18 @@
     border-radius: 20px;
     /* max-width: 500px; */
   }
+  .grid2 {
+    margin-top: 10px;
+    display: flex;
+    
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    /* padding: 50px; */
+    background: linear-gradient(to left, #dde8f0, #f7faff);
+    border-radius: 20px;
+    /* max-width: 500px; */
+  }
   .grid1 {
     margin-top: 40px;
     display: flex;
