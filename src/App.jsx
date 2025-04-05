@@ -1,4 +1,5 @@
 import React from "react";
+import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Education from "./components/Education";
@@ -17,20 +18,22 @@ function App() {
   return (
     <>
       <Navbar />
-      <main>
-        <section id="home"><Home /></section>
-        <section id="education"><Education /></section>
-        <section id="work-experience"><WorkExperience /></section>
-        <section id="publications"><Publications /></section>
-        <section id="paper-presentation"><PaperPresentation /></section>
-        <section id="achievements"><Achievements /></section>
-        <section id="workshops"><Workshops /></section>
-        <section id="webinar"><Webinar /></section>
-        <section id="development-program"><DevelopmentProgram /></section>
-        <section id="subjects"><Subjects /></section>
-        <section id="contact"><Contact /></section>
-      </main>
       <ScrollToTop />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/education" element={<Education />} />
+        <Route path="/work-experience" element={<WorkExperience />} />
+        <Route path="/publications" element={<Publications />} />
+        <Route path="/paper-presentation" element={<PaperPresentation />} />
+        <Route path="/achievements" element={<Achievements />} />
+        <Route path="/workshops" element={<Workshops />} />
+        <Route path="/webinar" element={<Webinar />} />
+        <Route path="/development-program" element={<DevelopmentProgram />} />
+        <Route path="/subjects" element={<Subjects />} />
+        <Route path="/contact" element={<Contact />} />
+        {/* Optional: 404 Page */}
+        <Route path="*" element={<div style={{ padding: "2rem" }}><h1>404 - Page Not Found</h1></div>} />
+      </Routes>
     </>
   );
 }

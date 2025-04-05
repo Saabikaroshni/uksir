@@ -1,5 +1,6 @@
 /* Navbar Styles */
 .navbar {
+ 
   display: flex;
   flex-wrap: wrap; /* Ensures elements wrap on smaller screens */
   justify-content: space-around;
