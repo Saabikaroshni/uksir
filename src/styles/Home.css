@@ -19,8 +19,8 @@
 /* Typing Effect for Name */
 .typing-text {
   font-size: 3rem;
-  font-weight: bold;
-  color: black;
+  font-weight: bolder;
+  color:  rgb(33, 33, 126);
   font-family: "Poppins", sans-serif;
   display: flex;
   align-items: center;
@@ -30,12 +30,12 @@
 
 /* Blinking Cursor */
 .cursor {
-  padding-bottom: 30px;
+  padding-bottom: 25px;
   display: inline-block;
   width: 5px;
   height: 40px;
   /* background-color: rgb(33, 33, 126); */
-  animation: blink 0.8s infinite;
+  animation: blink 0.6s infinite;
 }
 
 /* Hide Cursor When Typing Completes */
@@ -49,7 +49,7 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
-  padding: 30px;
+  padding: 20px;
 
   
   /* max-width: 500px; */
@@ -58,9 +58,9 @@
 /* Home Content Styling */
 .home-content {
   background: linear-gradient(to left, #dde8f0, #f7faff);
-  padding: 50px;
-  border-radius: 15px;
-  border: 30px solid white;
+  padding: 30px;
+  border-radius: 10px;
+  border: 5px solid  rgb(33, 33, 126);
   text-align: justify;
   line-height: 1.7;
 }
@@ -116,6 +116,9 @@
   .home-content {
     padding: 20px;
   }
+  .cursor{
+    padding-bottom: 10px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -125,4 +128,5 @@
   .home-section {
     padding: 30px;
   }
+  
 }

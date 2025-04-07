@@ -9,7 +9,8 @@
   background: #f4f4f4;
   border-bottom: 1px solid #ddd;
 } */
-body {  background: linear-gradient(to left, #dde8f0, #f7faff);
+body { 
+   background: linear-gradient(to left, #dde8f0, #f7faff);
 
   /* background: linear-gradient(to right, #c9d6ff, #e2e2e2); */
   font-family: Arial, sans-serif;

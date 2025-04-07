@@ -10,7 +10,7 @@
   font-size: 2.5rem; /* Adjusted for better readability */
   margin-bottom: 30px;
   text-transform: uppercase;
-  color: black;
+  color: rgb(33, 33, 126);
 }
 
 /* Education Grid Layout */
@@ -39,7 +39,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border: 30px solid white;
+  border: 10px solid white;
 }
 
 .edu-card:hover {
