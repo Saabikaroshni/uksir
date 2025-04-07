@@ -21,6 +21,10 @@ import International from "./components/Paperpresentation/International";
 import Projects from "./components/achievements/Projects";
 import Academic from "./components/achievements/Academic";
 import Membership from "./components/achievements/Membership";
+import Nationallevel from "./components/Workshop/Nationallevel";
+import Internationallevel from "./components/Workshop/Internationallevel";
+import GuestLecture from "./components/program/GuestLecture";
+import Faculty from "./components/program/Faculty";
 
 function App() {
   return (
@@ -39,12 +43,16 @@ function App() {
         <Route path="/national" element={<National />} />
         <Route path="/international" element={<International />} />
         <Route path="/achievements" element={<Achievements />} />
+        <Route path="/nat" element={<Nationallevel />} />
+        <Route path="/inter" element={<Internationallevel />} />
         <Route path="/academic" element={<Academic />} />
         <Route path="/project" element={<Projects/>} />
         <Route path="/membership" element={<Membership />} />
         <Route path="/workshops" element={<Workshops />} />
         <Route path="/webinar" element={<Webinar />} />
         <Route path="/development-program" element={<DevelopmentProgram />} />
+        <Route path="/fdp" element={<Faculty />} />
+        <Route path="/guest" element={<GuestLecture />} />
         <Route path="/subjects" element={<Subjects />} />
         <Route path="/contact" element={<Contact />} />
         {/* Optional: 404 Page */}

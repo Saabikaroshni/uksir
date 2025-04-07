@@ -38,18 +38,18 @@ const Navbar = () => {
         <li className="dropdown">
         <NavLink to="/workshops">Workshops</NavLink>
           <ul className="dropdown-menu">
-            <li><NavLink to="/publications/journals">Journals</NavLink></li>
-            <li><NavLink to="/publications/book">Book</NavLink></li>
-            <li><NavLink to="/publications/patents">Patents</NavLink></li>
+            <li><NavLink to="/nat">National-Level</NavLink></li>
+            <li><NavLink to="/internat">International-Level</NavLink></li>
+          
           </ul>
         </li>
         <li><NavLink to="/webinar">Webinar</NavLink></li>
         <li className="dropdown">
         <NavLink to="/development-program">Development Program</NavLink>
           <ul className="dropdown-menu">
-            <li><NavLink to="/publications/journals">Journals</NavLink></li>
-            <li><NavLink to="/publications/book">Book</NavLink></li>
-            <li><NavLink to="/publications/patents">Patents</NavLink></li>
+            <li><NavLink to="/fdp">Faculty-Development-Program</NavLink></li>
+            <li><NavLink to="/guest">Guest-Lectures</NavLink></li>
+            
           </ul>
         </li>
        
