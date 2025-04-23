@@ -16,6 +16,9 @@ const WorkExperience = () => {
             <h3 className="emp">Employment Details</h3>
           </div>
           <div className="grid2">
+            <div className="table-container">
+
+            
             <table className="experience-table">
               <thead>
                 <tr className="emp1">
@@ -95,11 +98,12 @@ const WorkExperience = () => {
                 </tr>
               </tbody>
             </table>
+            </div>
+            </div>
           </div>
-        </div>
 
         {/* Experience Overview */}
-    </div>
+        </div>
     <div className="grid">
     <div className="work-card">
           <div className="card-header">

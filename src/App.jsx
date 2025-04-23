@@ -13,7 +13,7 @@ import DevelopmentProgram from "./components/DevelopmentProgram";
 import Subjects from "./components/Subjects";
 import Contact from "./components/Contact";
 import ScrollToTop from "./components/ScrollToTop";
-import Journals from "./components/publications/Journels";
+import Journals from "./components/Journels";
 import Book from "./components/publications/Book";
 import Patents from "./components/publications/Patents";
 import National from "./components/Paperpresentation/National";
