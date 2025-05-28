@@ -8,7 +8,7 @@ const WorkExperience = () => {
       <h2 className="section-title">Work Experience</h2>
 
       {/* Work Cards Container */}
-      <div className="work-container">
+      <div >
         {/* Employment Details */}
         <div className="work-card">
           <div className="card-header">

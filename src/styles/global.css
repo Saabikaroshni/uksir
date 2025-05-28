@@ -4,4 +4,50 @@ body {
     padding: 0;
     scroll-behavior: smooth;
   }
+  .card {
+    background: #e6f0ff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+    min-width: 150px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    background: #d0e4ff;
+  }
+  .edu-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 60px;
+    background: linear-gradient(to left, #dde8f0, #f7faff);
+    border-radius: 20px; 
+   
+  }
+  
+  /* Education Card */
+  .edu-card {
+    color: rgb(33, 33, 126);
+    background: linear-gradient(to left, #dde8f0, #f7faff);
+    border-radius: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    padding: 60px;
+    width: calc(33.33% - 20px); /* Adjust for 3-column layout */
+    min-width: 280px; /* Ensures it adapts on smaller screens */
+    max-width: 350px;
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 10px solid white;
+  }
+  .edu-card:hover {
+    transform: translateY(-5px);
+  }
+  
   
